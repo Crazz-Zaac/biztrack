@@ -1,4 +1,17 @@
 # biztrack
+![Dependabot Status](https://img.shields.io/badge/dependabot-active-brightgreen)
+![GitHub License](https://img.shields.io/github/license/Crazz-Zaac/biztrack)
+![Commit Activity](https://img.shields.io/github/commit-activity/w/Crazz-Zaac/biztrack)
+![code size(bytes)](https://img.shields.io/github/languages/code-size/Crazz-Zaac/biztrack)
+[![Coverage Status](https://coveralls.io/repos/github/Crazz-Zaac/biztrack/badge.svg?branch=main)](https://coveralls.io/github/Crazz-Zaac/biztrack?branch=main)
+<!-- ![Tests](https://github.com/Crazz-Zaac/computer-vision-experiments/actions/workflows/py_test.yml/badge.svg) -->
+[![Issues](https://img.shields.io/github/issues/Crazz-Zaac/biztrack)](https://github.com/Crazz-Zaac/biztrack/issues)
+[![Contributors](https://img.shields.io/github/contributors/Crazz-Zaac/biztrack)](https://github.com/Crazz-Zaac/biztrack/graphs/contributors)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D14-green)](https://nodejs.org/)
+[![MERN Stack](https://img.shields.io/badge/stack-MERN-blue)](#)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/Crazz-Zaac/biztrack/build.yml)](https://github.com/Crazz-Zaac/biztrack/actions)
+
+
 
 ### Project description
 
