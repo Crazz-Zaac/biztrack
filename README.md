@@ -37,7 +37,7 @@ DB_CONNECT=mongodb://0.0.0.0/biztrack-dev (replace 0.0.0.0 with your desired loc
 - For backend
     - `cd backend` 
     - Then run: `npx nodemon`
-    - And then visit: [localhost](localhost:4000)
+    - And then visit: [localhost](https://localhost:4000)
 
 - For frontend
     - `cd frontend/biztrack`
