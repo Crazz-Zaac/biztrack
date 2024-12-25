@@ -27,6 +27,7 @@ This is an internal web application tool to keep the records of accounting and d
 - `React` 
 
 ### Running the project
+- `git clone --branch dev git@github.com:Crazz-Zaac/biztrack.git`
 - Create a .env file inside the `backend/` directory
 - Add the following variables
 ``` 
