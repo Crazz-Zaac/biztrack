@@ -1,47 +1,22 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
+    const navigate = useNavigate();
     const [userType, setUserType] = useState('');
     const [user, setUser] = useState('');
     const [password, setPassword] = useState('');
     const [rememberMe, setRememberMe] = useState(false);
-    const [isTimedOut, setIsTimedOut] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         // TODO:Additional Logic
+        if (password === "default_password") {
+            navigate("/auth/change_password");
+        }
         console.log({ userType, user, password, rememberMe });
     };
 
-    useEffect(() => {
-        const timeoutDuration = 5 * 60 * 1000; // 5 minutes timer
-        let timeout;
-
-        const startTimeout = () => {
-            timeout = setTimeout(() => {
-                setIsTimedOut(true);
-                // TODO: Additional Logic:
-                alert("You've timed out");
-            }, timeoutDuration);
-        };
-
-        const resetTimeout = () => {
-            clearTimeout(timeout);
-            setIsTimedOut(false);
-            startTimeout();
-        };
-
-        window.addEventListener('mousemove', resetTimeout);
-        window.addEventListener('keydown', resetTimeout);
-        startTimeout();
-
-        // clear listeners
-        return () => {
-            clearTimeout(timeout);
-            window.removeEventListener('mousemove', resetTimeout);
-            window.removeEventListener('keydown', resetTimeout);
-        };
-    }, []);
     return (
         <div className="flex justify-center items-center h-screen bg-primary">
             <div className="bg-white p-8 rounded-lg shadow-md w-96">

@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from "./components/auth/login"
-import Landing from "./components/LandingPage";
+import Login from "./components/auth/Login"
 import NotFound from "./components/NotFound";
+import ChangePassword from './components/auth/ChangePassword';
 
 
 function App() {
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Landing />} />
-                <Route path="/auth/login" element={<Login />} />
+                <Route path="/" element={<Login />} />
+                <Route path="/auth/change_password" element={<ChangePassword />} />
                 {/* Catch all for 404 */}
                 <Route path="*" element={<NotFound />} />
             </Routes>
