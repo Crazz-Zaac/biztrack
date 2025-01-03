@@ -31,6 +31,7 @@ const Login = () => {
                             required
                         >
                             <option value="">Select User Type</option>
+                            <option value="super_admin">Super Admin</option>
                             <option value="admin">Admin</option>
                             <option value="staff">Staff</option>
                         </select>
